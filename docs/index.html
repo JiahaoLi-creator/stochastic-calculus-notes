@@ -11,6 +11,7 @@
   <header class="site-header">
     <a class="brand" href="./" aria-label="Home">JMN</a>
     <nav aria-label="Primary navigation">
+      <a href="#start">Start here</a>
       <a href="#core">Core sequence</a>
       <a href="#deep-dives">Deep dives</a>
       <a href="https://github.com/JiahaoLi-creator/stochastic-calculus-notes">GitHub</a>
@@ -21,7 +22,11 @@
     <section class="hero">
       <p class="eyebrow">Probability · Stochastic calculus · Mathematical finance</p>
       <h1>Jacob's<br><span>Mathematical Notes</span></h1>
-      <p class="intro">A public collection of visual, source-linked study notes. Each chapter moves from a formal statement to a figure or experiment, followed by a concise interpretation.</p>
+      <p class="intro">A clear reading path through probability, stochastic calculus, and mathematical finance—supported by figures, experiments, and reproducible notebooks.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="notes/Conditional_Expectation.html">Start with Chapter 1</a>
+        <a class="button" href="#core">Browse all notes</a>
+      </div>
       <div class="summary" aria-label="Collection summary">
         <div><strong>16</strong><span>notebooks</span></div>
         <div><strong>7</strong><span>core chapters</span></div>
@@ -29,8 +34,36 @@
       </div>
     </section>
 
+    <section id="start" class="quick-start">
+      <div class="section-heading">
+        <p class="section-number">00</p>
+        <div>
+          <p class="eyebrow">New to the collection?</p>
+          <h2>Start here</h2>
+        </div>
+      </div>
+      <div class="start-grid">
+        <article>
+          <p class="step">Step 1</p>
+          <h3>Follow the core sequence</h3>
+          <p>Begin with conditional expectation, then move through discrete and continuous time before starting stochastic integration.</p>
+        </article>
+        <article>
+          <p class="step">Step 2</p>
+          <h3>Read before you run</h3>
+          <p>Use the reader page first. It keeps the mathematics, figures, and interpretation visible without showing Python input.</p>
+        </article>
+        <article>
+          <p class="step">Step 3</p>
+          <h3>Reproduce the experiment</h3>
+          <p>Open the matching notebook when you want to inspect assumptions, change parameters, or rerun a simulation.</p>
+        </article>
+      </div>
+      <p class="path"><strong>Recommended path:</strong> Conditional Expectation → Discrete Time → Continuous Time → Itô Integral → Itô Formula → SDEs → Black–Scholes.</p>
+    </section>
+
     <section class="notice" aria-label="Publication note">
-      <p><strong>Independent study notes.</strong> These pages are not official ANU course materials. Reader editions hide Python input; reproducible notebook source remains available beside each chapter. Simulations illustrate numerical patterns and do not replace proofs.</p>
+      <p><strong>Independent study notes.</strong> Not official ANU course materials. Simulations illustrate numerical patterns and do not replace proofs.</p>
     </section>
 
     <section id="core" class="collection">

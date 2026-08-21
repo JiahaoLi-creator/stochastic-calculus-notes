@@ -11,6 +11,7 @@ Website: <https://jiahaoli-creator.github.io/stochastic-calculus-notes/>
 - Nine extended visual notebooks on projection, stopping times, maximal
   inequalities, quadratic variation, stochastic integration, Girsanov's
   theorem, and generators.
+- A black-and-white quick-start page with a recommended reading sequence.
 - Reader HTML hides Python input while retaining mathematical exposition,
   figures, simulations, and interpretation.
 - The corresponding `.ipynb` source is available for reproducibility.
