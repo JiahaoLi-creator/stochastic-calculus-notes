@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Conditional Expectation as an L2 Projection · Jacob's Mathematical Notes</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Conditional Expectation as an L2 Projection · Mathematical Notes</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7586,7 +7586,8 @@ X\sim\operatorname{Unif}[-1,1],
 \qquad
 Y=X^2+\varepsilon,
 \qquad
-E(\varepsilon\mid X)=0.
+\varepsilon\sim N(0,\sigma_\varepsilon^2),
+\quad \varepsilon\ \text{independent of }X.
 $$</p>
 <p>Then $E(Y\mid X)=X^2$. If $B_m(X)$ records only which of $m$ equal bins contains $X$ and $\Sigma_m=\sigma(B_m(X))$, the coarser exact projection is</p>
 <p>$$
@@ -7680,7 +7681,7 @@ Largest |E[R 1_Aj]| across bins: 0.003583
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p class="figure-caption"><strong>Figure 2.</strong> Residual means and residual-indicator moments for the exact projection onto the eight-bin information set; vertical intervals are pointwise Monte Carlo intervals for the bin means.</p>
+<p class="figure-caption"><strong>Figure 2.</strong> Residual means and residual-indicator moments for the exact projection onto the eight-bin information set; vertical intervals are approximate pointwise $95\%$ Monte Carlo intervals for the bin means.</p>
 <p class="figure-interpretation"><span class="interpretation-label">Interpretation.</span> Every marker lies near zero within sampling variation. The left panel reads orthogonality conditionally within each bin, and the right panel reads the same relation as inner products with a basis of $\Sigma_8$-measurable indicators. The exact orthogonality follows from the projection property; the figure is a numerical check for this sample.</p>
 </div>
 </div>

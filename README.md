@@ -1,9 +1,13 @@
-# Jacob's Mathematical Notes
+# Mathematical Notes
 
 Public reader editions and reproducible Jupyter notebooks covering probability,
 stochastic processes, stochastic calculus, and mathematical finance.
 
 Website: <https://jiahaoli-creator.github.io/stochastic-calculus-notes/>
+
+This is a living collection. Future updates will add more application-focused
+material on stochastic volatility modelling, dynamic hedging, and exotic
+option pricing.
 
 ## Contents
 
@@ -25,17 +29,6 @@ docs/
   notebooks/       Reproducible Jupyter sources
   assets/          Website styles
 ```
-
-## Scope and attribution
-
-These are independent study notes, not official ANU course materials. They do
-not contain lecture recordings, course PDFs, assessment materials, textbooks,
-or journal-article files. Third-party ideas and results remain the property of
-their respective authors and should be consulted through their original
-sources.
-
-The notes may contain errors. Figures and simulations illustrate numerical
-patterns; they do not replace proofs.
 
 ## Copyright
 
